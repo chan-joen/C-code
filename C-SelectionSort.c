@@ -47,18 +47,18 @@ int main()
 	int* arr;
 	int Num1=0,Num2=0;
 	int i;
-	printf("ÇĞ»ıÀÇ ¼ö¸¦ ÀÔ·ÂÇØ ÁÖ¼¼¿ä: ");
+	printf("í•™ìƒì˜ ìˆ˜ë¥¼ ì…ë ¥í•´ ì£¼ì„¸ìš”: ");
 	scanf("%d", &Num1);
 	student = (int*)malloc(sizeof(int) * Num1);
 	score = (int*)malloc(sizeof(int) * Num1);
 	arr = (int*)malloc(sizeof(int) * Num1);
 	for (i = 0; i < Num1; i++)
 	{
-		printf("ÇĞ»ıÀÇ ÇĞ¹ø°ú Á¡¼ö¸¦ ÀÔ·ÂÇØ ÁÖ¼¼¿ä: ");
+		printf("í•™ìƒì˜ í•™ë²ˆê³¼ ì ìˆ˜ë¥¼ ì…ë ¥í•´ ì£¼ì„¸ìš”: ");
 		scanf("%d %d", &student[i], &score[i]);
 		arr[i] = i;
 	}
-	printf("1.ÇĞ¹øÀ¸·Î Á¤¸®ÇÏ±â 2.Á¡¼ö ¼øÀ¸·Î Á¤¸®ÇÏ±â:");
+	printf("1.í•™ë²ˆìœ¼ë¡œ ì •ë¦¬í•˜ê¸° 2.ì ìˆ˜ ìˆœìœ¼ë¡œ ì •ë¦¬í•˜ê¸°:");
 	scanf("%d", &Num2);
 	if (Num2 == 1)
 	{
